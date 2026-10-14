@@ -1,0 +1,46 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+header {
+  height: 811px;
+  background-image: url("../images/Bitmap.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 139px;
+}
+
+.menu img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.menu {
+  width: 40px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 40px;
+}
+
+.container1, .article1, .article2 {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: flex-start;
+}
